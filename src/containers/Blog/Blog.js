@@ -22,7 +22,7 @@ class Blog extends Component {
 
     render () {
         const posts = this.state.posts.map(post => {
-            <Post />
+            <Post title={post.title} />
         })
 
         return (
