@@ -24,7 +24,7 @@ class Blog extends Component {
                 })
                 this.setState({posts: updatedPosts});
                 // this.setState({posts: response.data}); // 1st code
-                console.log(response);
+                //console.log(response);
                 
             });
     };
